@@ -1,10 +1,17 @@
 import './App.css';
+import Nav from './navigation/Nav';
+import Products from './products/Products';
+import Recommended from './recommended/Recommended';
+import Sidebar from './sideBar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome</h1>
-    </div>
+    <>
+      <Nav />
+      <Products />
+      <Sidebar />
+      <Recommended />
+    </>
   );
 }
 
