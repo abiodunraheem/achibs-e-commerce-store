@@ -5,11 +5,11 @@ const Recommended = () => {
     <div>
       <h2 className="recommended-title">Recommended</h2>
       <div className="recommended-flex">
-        <button value="" title="All Products">All Products</button>
-        <button value="Nike" title="Nike">Nike</button>
-        <button value="Adidas" title="Adidas">Adidas</button>
-        <button value="Puma" title="Puma">Puma</button>
-        <button value="Vans" title="Vans">Vans</button>
+        <button className="btns">All Products</button>
+        <button className="btns">Nike</button>
+        <button className="btns">Adidas</button>
+        <button className="btns">Puma</button>
+        <button className="btns">Vans</button>
       </div>
     </div>
   )

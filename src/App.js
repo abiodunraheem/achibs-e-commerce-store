@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Nav />
+      <Recommended />
       <Products />
       <Sidebar />
-      <Recommended />
     </>
   );
 }
